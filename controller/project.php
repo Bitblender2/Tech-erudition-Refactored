@@ -1,6 +1,6 @@
 <?php 
 $heading="Project";
-$description='<p><span><a href="./portifolio.html">Portifolio</a></span>/E-Ticketing System</p>';
+$description='<p><span><a href="./portifolio.html">Portifolio</a></span>/Smart Inventory Management System</p>';
 
     require_once '../include/header.php';
     require_once '../include/nav.php';

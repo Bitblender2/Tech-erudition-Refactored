@@ -39,6 +39,7 @@
 }
 
 .port-card {
+  /* border: #161616 solid 1px; */
   width: 70%;
   background: #eaf8fb;
   display: flex;
@@ -48,6 +49,7 @@
 }
 
 .port-image {
+  border: #161616 solid 1px;
   width: 100%;
   margin-bottom: 20px;
 }

@@ -1,15 +1,15 @@
 <section class="project">
         <div class="pro-image">
-            <img src="../assets/android.jpg" alt="alonda image" srcset="">
+            <img src="../assets/invertory.png" alt="alonda image" srcset="">
         </div>
         <div class="pro-desc">
-            <h3><span>E-Ticketing System</span></h3>
+            <h3><span>Smart Inventory Management System</span></h3>
             <p>
-                Introducing Alonda, the innovative mobile application designed to revolutionize 
-                how users manage their daily tasks and stay organized on the go. With Alonda, users
+                Introducing Smart Inventory Management System, the innovative system designed to revolutionize 
+                how users manage their daily tasks and stay organized on the go. With Smart Inventory , users
                  can streamline their schedules, prioritize tasks, and boost productivity like never 
                  before. Whether you're a busy professional juggling multiple projects or a student 
-                 balancing coursework and extracurricular activities, Alonda is your ultimate companion 
+                 balancing coursework and extracurricular activities, Smart Inventory  is your ultimate companion 
                  for staying on track and achieving your goals.
                 </p>
                 <p>

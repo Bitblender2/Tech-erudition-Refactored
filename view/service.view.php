@@ -2,7 +2,7 @@
 <div class="cont-service">
         <div class="order">
           <div class="order-des">
-            <h2>Software and mobile application development</h2>
+            <h2><span>Software and mobile application development</span></h2>
             <p>
             Tech-Erudition creates digital experiences for web and mobile
               that make businesses grow. We develop web applications that are
@@ -13,12 +13,16 @@
               growth with modern software solutions that bring tangible results.
             </p>
           </div>
-          <div class="order-img"></div>
+          <div class="order-img">
+          <img src="../assets/software.png" alt="" />
+          </div>
         </div>
         <div class="order">
-          <div class="order-img"></div>
+          <div class="order-img">
+          <img src="../assets/business.png" alt="" />
+          </div>
           <div class="order-des">
-            <h2>Business operations support</h2>
+            <h2><span>Business operations support</span></h2>
             <p>
               Today scaling operational skills and resources in line with
               business expansion is a constant challenge. We can help your
@@ -30,7 +34,7 @@
         </div>
         <div class="order">
           <div class="order-des">
-            <h2>Data processing, analysis, and reporting</h2>
+            <h2><span>Data processing, analysis, and reporting</span></h2>
             <p>
             Tech-Erudition conducts statistical analysis and calculations on
               all your data, visualizing the results in real-time dashboards.
@@ -38,12 +42,16 @@
               alerted to when data falls outside of expected ranges.
             </p>
           </div>
-          <div class="order-img"></div>
+          <div class="order-img">
+          <img src="../assets/data.png" alt="" />
+          </div>
         </div>
         <div class="order">
-          <div class="order-img"></div>
+          <div class="order-img">
+          <img src="../assets/auto.png" alt="" />
+          </div>
           <div class="order-des">
-            <h2>Automation, machine learning & artificial intelligence</h2>
+            <h2><span>Automation, machine learning & artificial intelligence</span></h2>
             <p>
               Tech-Erudition is an Information Technology company, automates
               businesses and optimizes processes by deploying smart Artificial

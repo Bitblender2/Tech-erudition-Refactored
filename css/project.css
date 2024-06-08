@@ -39,7 +39,7 @@ a {
 }
 .pro-image img {
   border-radius: 0em 0em 4em 0em;
-  width: 80%;
+  width: 50%;
   object-fit: cover;
 }
 .pro-desc {

@@ -9,10 +9,10 @@
 
         <div class="port-card">
             <div class="port-image">
-            <img src="../assets/android.jpg" alt="project image" srcset="">
+            <img src="../assets/invertory.png" alt="project image" srcset="">
             </div>
             <div class="port-det">
-                <h4>Alonda Mobile Application</h4>
+                <h4>Smart Inventory Management System</h4>
                 <p>
                   Introducing Alonda, the innovative mobile application designed to revolutionize how users manage 
                   their daily tasks and stay organized on the go. With Alonda,
@@ -28,7 +28,7 @@
             <img src="../assets/android.jpg" alt="project image" srcset="">
             </div>
             <div class="port-det">
-                <h4>Alonda Mobile Application</h4>
+                <h4>Online Learning Management System (LMS)</h4>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sit rem similique error inventore quam sunt incidunt ex fuga deleniti.
                 </p>
                 <div class="port-button">
@@ -42,7 +42,7 @@
             <img src="../assets/android.jpg" alt="project image" srcset="">
             </div>
             <div class="port-det">
-                <h4>Alonda Mobile Application</h4>
+                <h4>Fraud Detection System Using Machine Learning</h4>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sit rem similique error inventore quam sunt incidunt ex fuga deleniti.
                 </p>
                 <div class="port-button">
@@ -56,7 +56,7 @@
             <img src="../assets/android.jpg" alt="project image" srcset="">
             </div>
             <div class="port-det">
-                <h4>Alonda Mobile Application</h4>
+                <h4>Disaster Management Information System</h4>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sit rem similique error inventore quam sunt incidunt ex fuga deleniti.
                 </p>
                 <div class="port-button">
@@ -70,7 +70,7 @@
             <img src="../assets/android.jpg" alt="project image" srcset="">
             </div>
             <div class="port-det">
-                <h4>Alonda Mobile Application</h4>
+                <h4>Blockchain-based Voting System</h4>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sit rem similique error inventore quam sunt incidunt ex fuga deleniti.
                 </p>
                 <div class="port-button">
@@ -84,7 +84,7 @@
             <img src="../assets/android.jpg" alt="project image" srcset="">
             </div>
             <div class="port-det">
-                <h4>Alonda Mobile Application</h4>
+                <h4>IoT-based Environmental Monitoring System</h4>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sit rem similique error inventore quam sunt incidunt ex fuga deleniti.
                 </p>
                 <div class="port-button">
