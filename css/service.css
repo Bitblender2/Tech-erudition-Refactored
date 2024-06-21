@@ -32,6 +32,7 @@
   flex-direction: column;
 }
 .order {
+  object-fit: cover;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -52,6 +53,7 @@
   margin-bottom: 20px;
 }
 .order-img {
+  object-fit: cover;
   width: 30%;
   border: solid 1px #068afd;
 }

@@ -37,6 +37,8 @@
         </li>
       </ul>
       <p>&copy;2024 Tech-Erudition | All Rights Reserved</p>
+
+      
     </footer>
     <script
       type="module"
@@ -46,6 +48,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <script src="/script/script.js"></script>
+    
   </body>
 </html>

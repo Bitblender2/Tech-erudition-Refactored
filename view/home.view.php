@@ -1,4 +1,5 @@
 <main class="container">
+
       <div class="left">
         <h5>
           We focus on the <span>practical </span> and
@@ -10,8 +11,8 @@
         </p>
 
         <div class="buttons">
-          <button class="btn1" id="btn"><a href="/controller/contact.php">Contact Us</a></button>
-          <button class="btn2" id="btn2"><a href="/controller/portifolio.php">Our Portifolio</a></button>
+          <button class="btn1" id="btn"><a href="/contact">Contact Us</a></button>
+          <button class="btn2" id="btn2"><a href="/portifolio">Our Portifolio</a></button>
         </div>
       </div>
       <div class="right">
@@ -33,7 +34,7 @@
         </p>
 
         <div class="link">
-          <a href="/controller/about.php">Learn more about us </a>
+          <a href="/about">Learn more about us </a>
           <i class="fa-solid fa-arrow-right"></i>
         </div>
       </div>
@@ -48,7 +49,7 @@
           <h2>What can we do for you?</h2>
         </div>
         <div class="link">
-          <a href="/controller/service.php">Learn more about our services </a>
+          <a href="/service.php">Learn more about our services </a>
           <i class="fa-solid fa-arrow-right"></i>
         </div>
       </div>
@@ -79,7 +80,7 @@
       </div>
       <div class="cont-btn">
         <button class="btn1" id="cont">
-          <a href="/pages/contact.html">Contact Us</a>
+          <a href="/contact">Contact Us</a>
         </button>
       </div>
     </div>

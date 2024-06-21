@@ -45,7 +45,7 @@
         </div>
         <div class="cont-btn">
           <button class="btn1" id="cont">
-            <a href="/pages/contact.html">Contact Us</a>
+            <a href="/contact">Contact Us</a>
           </button>
         </div>
       </div>

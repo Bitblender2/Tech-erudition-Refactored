@@ -18,7 +18,7 @@
                   their daily tasks and stay organized on the go. With Alonda,
                 </p>
                 <div class="port-button">
-                    <a href="/controller/project.php">Learn more</a>
+                    <a href="/project">Learn more</a>
                 </div>
             </div>
             

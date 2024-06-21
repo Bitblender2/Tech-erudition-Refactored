@@ -1,35 +1,35 @@
 <?php
 
-$footer ="/css/footer.css";
-$nav ="/css/nav.css"; 
-$style ="/css/style.css";
+$footer ="css/footer.css";
+$nav ="css/nav.css"; 
+$style ="css/style.css";
 
 
 
 
 function getCss(){
    
-    $about ="/css/about.css";
-    $contact ="/css/contact.css";
-    $career ="/css/career.css";
-    $service ="/css/service.css";
-    $portifolio ="/css/portifolio.css";
-    $project ="/css/project.css";
-    $notfound ="/css/notfound.css";
+    $about ="css/about.css";
+    $contact ="css/contact.css";
+    $career ="css/career.css";
+    $service ="css/service.css";
+    $portifolio ="css/portifolio.css";
+    $project ="css/project.css";
+    $notfound ="css/notfound.css";
 
     $requestUri = $_SERVER['REQUEST_URI'];
 
-    if($requestUri=="/controller/about.php"){
+    if($requestUri==="/about"){
         echo $about;
-    } elseif($requestUri=="/controller/contact.php"){
+    }elseif($requestUri==="/contact"){
         echo $contact;
-    } elseif($requestUri=="/controller/career.php"){
+    } elseif($requestUri==="/career"){
         echo $career;
-    }elseif($requestUri=="/controller/portifolio.php"){
+    }elseif($requestUri==="/portifolio"){
         echo $portifolio;
-    } elseif($requestUri=="/controller/service.php"){
+    } elseif($requestUri==="/service"){
         echo $service;
-    } elseif($requestUri=="/controller/project.php"){
+    } elseif($requestUri==="/project"){
         echo $project;
     }else{
         echo $notfound;
