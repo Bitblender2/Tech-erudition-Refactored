@@ -5,63 +5,11 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-.loader {
-  width: 300px;
-}
-.loader img {
-  width: 100%;
-}
 
-/* loading animation */
-.loading-page {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
-
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  align-items: center;
-  justify-content: center;
-  color: #191654;
-}
-
-@keyframes draw {
-  0% {
-    stroke-dashoffset: 4500;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.name-container {
-  height: 30px;
-  overflow: hidden;
-}
-
-.logo-name {
-  color: #fff;
-  font-size: 20px;
-  letter-spacing: 12px;
-  text-transform: uppercase;
-  margin-left: 20px;
-  font-weight: bolder;
-}
-
-.root {
+/* .root {
   width: 100%;
   background: #ffff;
-}
-a:is(:link, :active, :visited).active {
-  background-color: #068afd;
-  color: #ffffff;
-  padding: 5px 10px;
-}
-/* active link do this */
+} */
 
 #btn a {
   text-decoration: none;
@@ -72,7 +20,8 @@ a:is(:link, :active, :visited).active {
   color: #068afd;
 }
 
-.container {
+.container1 {
+  padding-top: 30px;
   width: 100%;
   height: 100dvh;
   background-color: #eaf8fb;
@@ -225,6 +174,7 @@ h4 {
 }
 
 .contact-us {
+  margin-top: 30px;
   padding: 30px 0px;
   width: 100%;
   background-color: #ffffff;
@@ -252,14 +202,73 @@ h4 {
   text-decoration: none;
 }
 
+/* new ways of making buttons */
+
+.btn {
+  --color: #068afd;
+  --color2: rgb(255, 255, 255);
+  padding: 0.8em 1.75em;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 0.3px solid var(--color);
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 300;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: var(--color);
+  margin-right: 20px;
+}
+
+.btn::after,
+.btn::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: skew(90deg) translate(-50%, -50%);
+  position: absolute;
+  inset: 50%;
+  left: 25%;
+  z-index: -1;
+  transition: 0.5s ease-out;
+  background-color: var(--color);
+}
+
+.btn::before {
+  top: -50%;
+  left: -25%;
+  transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::before {
+  transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::after {
+  transform: skew(45deg) translate(-50%, -50%);
+}
+
+.btn:hover {
+  color: var(--color2);
+}
+
+.btn:active {
+  filter: brightness(0.7);
+  transform: scale(0.98);
+}
+
 @media screen and (max-width: 480px) {
   html,
   body {
     width: 100%;
     overflow-x: hidden;
   }
-  .container {
-    margin-top: 30px;
+  .container1 {
+    margin-top: 50px;
     width: 100%;
     background: #eaf8fb;
     display: flex;
@@ -288,6 +297,12 @@ h4 {
     font-size: 1.5em;
     margin-bottom: 20px;
   }
+  .buttons {
+    width: 100%;
+    display: flex;
+    font-size: 18px;
+    padding: 0px 0px;
+  }
   .right {
     margin-left: 50px;
     padding: 10px 30px;
@@ -296,21 +311,65 @@ h4 {
   .right img {
     width: 80%;
   }
-  .buttons {
-    display: flex;
-    margin-top: 30px;
-    gap: 20px;
+  /* wowow have to make count */
+
+  .btn {
+    --color: #068afd;
+    --color2: rgb(255, 255, 255);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 0.3px solid var(--color);
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: var(--color);
+    margin-right: 20px;
   }
-  button {
-    border: none;
-    color: #ffffff;
-    font-size: 1em;
-    background-color: #068afd;
-    padding: 10px 20px;
-    border-radius: 0.5em;
-    font-size: 18px;
-    font-weight: 400;
+
+  .btn::after,
+  .btn::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: 0.5s ease-out;
+    background-color: var(--color);
   }
+
+  .btn::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+  }
+
+  .btn:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+  }
+
+  .btn:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+  }
+
+  .btn:hover {
+    color: var(--color2);
+  }
+
+  .btn:active {
+    filter: brightness(0.7);
+    transform: scale(0.98);
+  }
+  /* the end of the crazy code  */
   .about {
     width: 100%;
     display: flex;

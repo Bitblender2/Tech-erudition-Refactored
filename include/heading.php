@@ -4,4 +4,4 @@
         <p>
             <?= $description ?>
         </p>
-      </div>
+</div>

@@ -6,91 +6,145 @@
       </div>
 
       <section class="portifolio">
+        <div class="card1">
+            <div class="image1"></div>
+            <div class="content">
+                <a href="#">
+                <span class="title1">
+                Smart Inventory Management System
+                </span>
+                </a>
 
-        <div class="port-card">
-            <div class="port-image">
-            <img src="../assets/invertory.png" alt="project image" srcset="">
-            </div>
-            <div class="port-det">
-                <h4>Smart Inventory Management System</h4>
-                <p>
-                  Introducing Alonda, the innovative mobile application designed to revolutionize how users manage 
-                  their daily tasks and stay organized on the go. With Alonda,
+                <p class="desc1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                dolores, possimus pariatur animi temporibus nesciunt praesentium 
                 </p>
-                <div class="port-button">
-                    <a href="/project">Learn more</a>
-                </div>
+
+                <button class="learn-more" onclick="project()">
+            <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+            </span>
+            <span class="button-text">Learn More</span>
+            </button>
             </div>
-            
         </div>
-        <div class="port-card">
-            <div class="port-image">
-            <img src="../assets/android.jpg" alt="project image" srcset="">
-            </div>
-            <div class="port-det">
-                <h4>Online Learning Management System (LMS)</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sit rem similique error inventore quam sunt incidunt ex fuga deleniti.
+
+
+        <div class="card1">
+            <div class="image1"></div>
+            <div class="content">
+                <a href="#">
+                <span class="title1">
+                Online Learning Management System (LMS)
+                </span>
+                </a>
+
+                <p class="desc1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                dolores, possimus pariatur animi temporibus nesciunt praesentium 
                 </p>
-                <div class="port-button">
-                    <a href="">Learn more</a>
-                </div>
+
+                <button class="learn-more" onclick="project()">
+            <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+            </span>
+            <span class="button-text">Learn More</span>
+            </button>
             </div>
-            
         </div>
-        <div class="port-card">
-            <div class="port-image">
-            <img src="../assets/android.jpg" alt="project image" srcset="">
-            </div>
-            <div class="port-det">
-                <h4>Fraud Detection System Using Machine Learning</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sit rem similique error inventore quam sunt incidunt ex fuga deleniti.
+
+        
+        <div class="card1">
+            <div class="image1"></div>
+            <div class="content">
+                <a href="#">
+                <span class="title1">
+                Fraud Detection System Using Machine Learning
+                </span>
+                </a>
+
+                <p class="desc1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                dolores, possimus pariatur animi temporibus nesciunt praesentium 
                 </p>
-                <div class="port-button">
-                    <a href="">Learn more</a>
-                </div>
+
+                <button class="learn-more" onclick="project()">
+            <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+            </span>
+            <span class="button-text">Learn More</span>
+            </button>
             </div>
-            
         </div>
-        <div class="port-card">
-            <div class="port-image">
-            <img src="../assets/android.jpg" alt="project image" srcset="">
-            </div>
-            <div class="port-det">
-                <h4>Disaster Management Information System</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sit rem similique error inventore quam sunt incidunt ex fuga deleniti.
+        
+        
+        
+        <div class="card1">
+            <div class="image1"></div>
+            <div class="content">
+                <a href="#">
+                <span class="title1">
+                Disaster Management Information System
+                </span>
+                </a>
+
+                <p class="desc1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                dolores, possimus pariatur animi temporibus nesciunt praesentium 
                 </p>
-                <div class="port-button">
-                    <a href="">Learn more</a>
-                </div>
+
+                <button class="learn-more" onclick="project()">
+            <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+            </span>
+            <span class="button-text">Learn More</span>
+            </button>
             </div>
-            
         </div>
-        <div class="port-card">
-            <div class="port-image">
-            <img src="../assets/android.jpg" alt="project image" srcset="">
-            </div>
-            <div class="port-det">
-                <h4>Blockchain-based Voting System</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sit rem similique error inventore quam sunt incidunt ex fuga deleniti.
+        <div class="card1">
+            <div class="image1"></div>
+            <div class="content">
+                <a href="#">
+                <span class="title1">
+                Blockchain-based Voting System
+                </span>
+                </a>
+
+                <p class="desc1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                dolores, possimus pariatur animi temporibus nesciunt praesentium 
                 </p>
-                <div class="port-button">
-                    <a href="">Learn more</a>
-                </div>
+
+                <button class="learn-more" onclick="project()">
+            <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+            </span>
+            <span class="button-text">Learn More</span>
+            </button>
             </div>
-            
         </div>
-        <div class="port-card">
-            <div class="port-image">
-            <img src="../assets/android.jpg" alt="project image" srcset="">
-            </div>
-            <div class="port-det">
-                <h4>IoT-based Environmental Monitoring System</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sit rem similique error inventore quam sunt incidunt ex fuga deleniti.
+        <div class="card1">
+            <div class="image1"></div>
+            <div class="content">
+                <a href="#">
+                <span class="title1">
+                IoT-based Environmental Monitoring System
+                </span>
+                </a>
+
+                <p class="desc1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                dolores, possimus pariatur animi temporibus nesciunt praesentium 
                 </p>
-                <div class="port-button">
-                    <a href="">Learn more</a>
-                </div>
+
+                <button class="learn-more" onclick="project()">
+            <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+            </span>
+            <span class="button-text">Learn More</span>
+            </button>
             </div>
-            
-        </div>
+        </div>     
+        
+        
       </section>

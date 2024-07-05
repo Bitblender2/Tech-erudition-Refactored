@@ -2,12 +2,13 @@
 
 
 $routes = [];
-route('/home', function () {
-    require_once 'controller/home.php';
-   });
 
 route('/', function () {
   require_once 'controller/home.php';
+});
+
+route('/home', function () {
+    require_once 'controller/home.php';
 });
 
 route('/about', function () {
@@ -38,7 +39,7 @@ route('/project', function () {
 
 
 route('/404', function () {
-  echo "Page not found";
+ require_once 'controller/404.php';
 });
 
 function route(string $path, callable $callback) {

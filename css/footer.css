@@ -1,118 +1,171 @@
 .footer {
-  position: relative;
+  margin-top: 30px;
   width: 100%;
-  background: #3586ff;
-  min-height: 100px;
-  padding: 20px 50px;
+  background-color: #020617;
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  margin-top: 70px;
-  top: 0;
-  bottom: 0;
-}
-
-.social-icon,
-.menu {
-  position: relative;
-  display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-  flex-wrap: wrap;
-}
-
-.social-icon__item,
-.menu__item {
-  list-style: none;
-}
-
-.social-icon__link {
-  font-size: 2rem;
-  color: #fff;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
-}
-.social-icon__link:hover {
-  transform: translateY(-10px);
-}
-
-.menu__link {
-  font-size: 1.2rem;
-  color: #fff;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
-  text-decoration: none;
-  opacity: 0.75;
-  font-weight: 300;
-}
-
-.menu__link:hover {
-  opacity: 1;
-}
-
-.footer p {
-  color: #fff;
-  margin: 15px 0 10px 0;
-  font-size: 1rem;
-  font-weight: 300;
-}
-
-.wave {
-  position: absolute;
-  top: -100px;
+  padding: 20px 30px;
+  /* position: fixed;
   left: 0;
+  bottom: 0; */
+}
+.set {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+
+  height: 30vh;
+  align-items: start;
+  width: 80%;
+  color: #ffff;
+  gap: 10px;
+}
+.box1,
+.box2,
+.box3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h1 {
+  font-size: 25px;
+}
+.box4 {
+  padding: 20px 10px;
   width: 100%;
-  height: 100px;
-  background: url("https://i.ibb.co/wQZVxxk/wave.png");
-  background-size: 1000px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.news {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.search input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #020617;
+  border: 0.5px solid #ffff;
+  color: #ffff;
 }
 
-.wave#wave1 {
-  z-index: 1000;
-  opacity: 1;
-  bottom: 0;
-  animation: animateWaves 4s linear infinite;
+.notification {
+  display: none;
+  margin-top: 10px;
+}
+.notification.success {
+  color: green;
+}
+.notification.error {
+  color: red;
+}
+form {
+  display: flex;
+  gap: 5px;
 }
 
-.wave#wave2 {
-  z-index: 999;
-  opacity: 0.5;
-  bottom: 10px;
-  animation: animate 4s linear infinite !important;
+.search button {
+  font-family: inherit;
+  font-size: 18px;
+  background: royalblue;
+  color: white;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
 }
 
-.wave#wave3 {
-  z-index: 1000;
-  opacity: 0.2;
-  bottom: 15px;
-  animation: animateWaves 3s linear infinite;
+.search button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+  color: #ffff;
 }
 
-.wave#wave4 {
-  z-index: 999;
-  opacity: 0.7;
-  bottom: 20px;
-  animation: animate 3s linear infinite;
+.search button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
 }
 
-@keyframes animateWaves {
-  0% {
-    background-position-x: 1000px;
+.search button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.search button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.search button:hover span {
+  transform: translateX(5em);
+}
+
+.search button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
   }
-  100% {
-    background-positon-x: 0px;
+
+  to {
+    transform: translateY(-0.1em);
   }
 }
 
-@keyframes animate {
-  0% {
-    background-position-x: -1000px;
+/* social */
+
+.social {
+  display: flex;
+  gap: 10px;
+}
+.social a {
+  color: #ffff;
+  font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    width: 100%;
+    background-color: #020617;
+    background: #020617;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 5px;
   }
-  100% {
-    background-positon-x: 0px;
+  .set {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+    align-items: start;
+    width: 80%;
+    color: #ffff;
+    gap: 10px;
+  }
+  .box4 {
+    padding: 20px 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .news {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 }

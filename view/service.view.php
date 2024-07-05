@@ -1,7 +1,11 @@
 
 <div class="cont-service">
         <div class="order">
+        <div class="order-img">
+          <img src="../assets/spotlight.jpg" alt="" />
+          </div>
           <div class="order-des">
+
             <h2><span>Tech-Spotlight </span></h2>
             <p>
             Tech-Spotlight shines a light on individuals with exceptional tech talents, providing a dynamic platform for 
@@ -11,9 +15,7 @@
             be part of a transformative experience where exceptional tech talent shines.
             </p>
           </div>
-          <div class="order-img">
-          <img src="../assets/spotlight.jpg" alt="" />
-          </div>
+          
         </div>
         <div class="order">
           <div class="order-img">
@@ -34,6 +36,9 @@
           </div>
         </div>
         <div class="order">
+        <div class="order-img">
+          <img src="../assets/data.png" alt="" />
+          </div>
           <div class="order-des">
             <h2><span>Community Engagement</span></h2>
             <p>
@@ -45,9 +50,7 @@
             has the opportunity to develop essential tech skills.
             </p>
           </div>
-          <div class="order-img">
-          <img src="../assets/data.png" alt="" />
-          </div>
+          
         </div>
         <div class="order">
           <div class="order-img">
@@ -65,6 +68,9 @@
           </div>
         </div>
         <div class="order">
+        <div class="order-img">
+          <img src="../assets/data.png" alt="" />
+          </div>
           <div class="order-des">
             <h2><span>IT consultancy</span></h2>
             <p>
@@ -75,9 +81,7 @@
             solutions, and assist with implementing changes. 
             </p>
           </div>
-          <div class="order-img">
-          <img src="../assets/data.png" alt="" />
-          </div>
+          
         </div>
       </div>
     </main>

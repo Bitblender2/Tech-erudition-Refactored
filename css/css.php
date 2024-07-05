@@ -7,6 +7,7 @@ $style ="css/style.css";
 
 
 
+
 function getCss(){
    
     $about ="css/about.css";
@@ -15,7 +16,8 @@ function getCss(){
     $service ="css/service.css";
     $portifolio ="css/portifolio.css";
     $project ="css/project.css";
-    $notfound ="css/notfound.css";
+    $notfound ="css/404.css";
+
 
     $requestUri = $_SERVER['REQUEST_URI'];
 

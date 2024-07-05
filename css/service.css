@@ -2,15 +2,16 @@
 .title {
   width: 100%;
   background-color: #eaf8fb;
-  height: 20dvh;
+  height: 25dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   padding: 5px 150px;
-  /* margin-top: 30px; */
+  margin-top: 0px;
 }
 .title h1 {
+  margin-top: 20px;
   margin-bottom: 20px;
   font-size: 2.5rem;
   font-weight: 700;
@@ -76,7 +77,7 @@
     justify-content: center;
     align-items: center;
     padding: 5px 10px;
-    /* margin-top: 30px; */
+    margin-top: 90px;
   }
   .title h1 {
     margin-bottom: 20px;

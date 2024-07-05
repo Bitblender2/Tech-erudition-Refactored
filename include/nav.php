@@ -1,13 +1,13 @@
-<body>
-<div class="root">
-      <header>
+
+
+ 
         <nav class="navbar">
-          <a href="#" class="nav-branding"
+          <a href="/" class="nav-branding"
             ><img src="../assets/logo.png" alt="logo" 
           /></a>
           <ul class="nav-menu">
             <li class="nav-item">
-              <a href="/home" class="nav-link" id="home">Home</a>
+              <a href="/" class="nav-link" id="home">Home</a>
             </li>
             <li class="nav-item">
               <a href="/about" class="nav-link">About Us</a>
@@ -31,5 +31,3 @@
             <span class="bar"></span>
           </div>
         </nav>
-      </header>
-    </div>

@@ -1,6 +1,6 @@
 <section class="project">
         <div class="pro-image">
-            <img src="../assets/invertory.png" alt="alonda image" srcset="">
+            <img src="../assets/back.png" alt="alonda image" srcset="">
         </div>
         <div class="pro-desc">
             <h3><span>Smart Inventory Management System</span></h3>

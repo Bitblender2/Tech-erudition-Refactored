@@ -1,4 +1,5 @@
-<main class="container">
+<div class="root">
+<main class="container1">
 
       <div class="left">
         <h5>
@@ -10,16 +11,16 @@
           technology is a powerful tool for creating an impact
         </p>
 
-        <div class="buttons">
-          <button class="btn1" id="btn"><a href="/contact">Contact Us</a></button>
-          <button class="btn2" id="btn2"><a href="/portifolio">Our Portifolio</a></button>
+        <div class="buttons">         
+          <button class="btn" id="btn1" onclick="contact()">Contact Us</button>
+          <button class="btn" id="btn2" onclick="portifolio()">Our Portifolio</button>
         </div>
       </div>
       <div class="right">
         <img src="/assets/landing.png" alt="home"/>
       </div>
     </main>
-    <section class="about">
+    <!-- <section class="about">
       <div class="ab-left">
         <h4>ABOUT US</h4>
         <h2>Who are we?</h2>
@@ -41,8 +42,8 @@
       <div class="ab-right">
         <img src="/assets/second.png" alt="" srcset="" />
       </div>
-    </section>
-    <section class="service">
+    </section> -->
+    <!-- <section class="service">
       <div class="head">
         <div class="what">
           <h3>OUR SERVICES</h3>
@@ -69,8 +70,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <div class="contact-us">
+    </section> -->
+    <!-- <div class="contact-us">
       <div class="us">
         <h1>We would love to talk with <span>you!</span></h1>
         <p>
@@ -83,4 +84,6 @@
           <a href="/contact">Contact Us</a>
         </button>
       </div>
-    </div>
+    </div> -->
+</div>
+

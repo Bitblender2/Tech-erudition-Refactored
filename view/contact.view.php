@@ -16,8 +16,8 @@
           <p><i class="fa-solid fa-envelope"></i>info@tech-Erudition.mw</p>
         </div>
         <div class="cont-right">
-          <h2>Write Us</h2>
-          <form action="">
+          <h2>Write To Us</h2>
+          <form action="" class="cont-form">
             <input type="text" name="name" id="input" placeholder="Name" />
             <input type="email" name="email" id="email" placeholder="Email" />
             <input type="tel" name="tel" id="tel" placeholder="Phone number" />
@@ -27,12 +27,8 @@
               id="Subject"
               placeholder="Subject"
             />
-            <input
-              type="text"
-              name="messege"
-              id="messege"
-              placeholder="Write your messege here..."
-            />
+            <textarea id="messege" name="feedback" rows="4" placeholder="Write your messege here..." cols="50"></textarea><br>
+           
             <button id="send">Submit</button>
           </form>
         </div>
