@@ -1,6 +1,6 @@
 <?php 
 $heading=" Our Services";
-$description="We offer awesome services that do fullfil your needs. Check out the
+$description="We offer awesome services that do fulfil your needs. Check out the
           following services we offer
 ";
     require_once 'include/header.php';
