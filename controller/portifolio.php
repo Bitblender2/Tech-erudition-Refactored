@@ -1,7 +1,7 @@
 <?php 
 
-    $heading="Portifolio";
-    $description="Check out our projects down below,if you have any interest in any do cantact us for further questions";
+    $heading="Portfolio";
+    $description="Check out our projects down below, if you have any interest in any do contact us for further questions";
 
     require_once 'include/header.php';
     require_once 'include/nav.php';
