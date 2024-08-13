@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* header section */
+.title {
+  width: 100%;
+  background-color: #eaf8fb;
+  height: 25dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 5px 150px;
+}
+.title h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+.title p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+}
+.about1 {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 150px;
+}
+.about-text {
+  width: 50%;
+  padding: 5px 100px;
+}
+#span {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.about1 h3 {
+  margin-top: 20px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.about1 p {
+  font-size: 1rem;
+  margin: 20px 0;
+}
+
+.about-img {
+  max-width: 50%;
+}
+
+.about-img img {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-row: 2;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skills {
+  background: #eaf8fb;
+  padding: 50px 150px;
+  margin: auto 0;
+  align-items: center;
+}
+
+.skills h5 {
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-align: center;
+  color: #068afd;
+}
+.skills h2 {
+  font-size: 2rem;
+  color: rgb(49, 48, 48);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.skills h1 {
+  text-align: center;
+  color: #068afd;
+}
+
+.skills p {
+  font-size: 0.95rem;
+}
+.skill-items {
+  text-align: center;
+  margin: 20px 0;
+  border-top: 1px solid black;
+  padding: 20px 30px;
+}
+.skill-items h1 {
+  font-size: 3.5rem;
+  color: #068afd;
+}
+
+.why-us {
+  width: 100%;
+  height: 40dvh;
+  padding: 50px 150px;
+  margin: auto 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.why-us h5 {
+  font-size: 2.5rem;
+  width: 20%;
+}
+
+.why-us p {
+  width: 20%;
+
+  margin: 20px 50px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  display: flex;
+  gap: 100px;
+}
+.why-us span {
+  color: #068afd;
+}
+
+@media screen and (max-width: 480px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .title {
+    width: 100%;
+    background-color: #eaf8fb;
+    height: 20dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    margin-top: 90px;
+  }
+  .title h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+  }
+  .title p {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+  }
+  .about1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0px;
+  }
+  .about-text {
+    width: 80%;
+    padding: 0px 0px;
+  }
+  #span {
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .about1 h3 {
+    margin-top: 20px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .about1 p {
+    font-size: 1rem;
+    margin: 20px 0;
+  }
+
+  .about-img {
+    max-width: 80%;
+  }
+
+  .about-img img {
+    width: 100%;
+  }
+
+  .grid {
+    display: grid;
+    grid-row: 2;
+    gap: 30px;
+    grid-template-columns: 1fr;
+  }
+
+  .skills {
+    background: #eaf8fb;
+    padding: 30px 20px;
+    margin: auto 0;
+    align-items: center;
+  }
+
+  .skills h5 {
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-align: center;
+    color: #068afd;
+  }
+  .skills h2 {
+    font-size: 2rem;
+    color: rgb(49, 48, 48);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  .skills h1 {
+    text-align: center;
+    color: #068afd;
+  }
+
+  .skills p {
+    font-size: 1rem;
+  }
+  .skill-items {
+    text-align: center;
+    margin: 20px 0;
+    border-top: 1px solid black;
+    padding: 0px 0px;
+  }
+  .skill-items h1 {
+    font-size: 3.5rem;
+    color: #068afd;
+  }
+
+  .why-us {
+    padding: 30px 0px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0px 0px;
+    margin-left: 40px;
+  }
+
+  .why-us h5 {
+    text-align: center;
+    font-size: 2.5rem;
+    width: 80%;
+  }
+
+  .why-us p {
+    width: 80%;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .why-us span {
+    color: #068afd;
+  }
+}
