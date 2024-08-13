@@ -1,150 +1,31 @@
-
 <main class="cont">
-     
-      <div class="heading">
+
+    <div class="heading">
         <h2>Our Projects So Far</h2>
-      </div>
+    </div>
 
-      <section class="portifolio">
-        <div class="card1">
-            <div class="image1"></div>
-            <div class="content">
-                <a href="#">
-                <span class="title1">
-                Smart Inventory Management System
-                </span>
-                </a>
+    <section class="portifolio">
+        <?php if (!empty($data)): ?>
+            <?php foreach ($data as $project): ?>
+                <div class="card1">
+                    <div class="image1"></div>
+                    <div class="content">
 
-                <p class="desc1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                dolores, possimus pariatur animi temporibus nesciunt praesentium 
-                </p>
+                        <span class="title1">
+                            <?php echo htmlspecialchars($project['title']); ?>
+                        </span>
 
-                <button class="learn-more" onclick="project()">
-            <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
-            </span>
-            <span class="button-text">Learn More</span>
-            </button>
-            </div>
-        </div>
+                        <p class="desc1">
+                            <?php echo htmlspecialchars($project['description']); ?>
+                        </p>
+                        <form action="/project" method="POST">
+                            <input type="hidden" name="id" value="<?php echo htmlspecialchars($project['id']); ?>">
+                            <button id="learn" type="submit" id="learn">Learn More</button>
+                        </form>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        <?php endif; ?>
 
 
-        <div class="card1">
-            <div class="image1"></div>
-            <div class="content">
-                <a href="#">
-                <span class="title1">
-                Online Learning Management System (LMS)
-                </span>
-                </a>
-
-                <p class="desc1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                dolores, possimus pariatur animi temporibus nesciunt praesentium 
-                </p>
-
-                <button class="learn-more" onclick="project()">
-            <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
-            </span>
-            <span class="button-text">Learn More</span>
-            </button>
-            </div>
-        </div>
-
-        
-        <div class="card1">
-            <div class="image1"></div>
-            <div class="content">
-                <a href="#">
-                <span class="title1">
-                Fraud Detection System Using Machine Learning
-                </span>
-                </a>
-
-                <p class="desc1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                dolores, possimus pariatur animi temporibus nesciunt praesentium 
-                </p>
-
-                <button class="learn-more" onclick="project()">
-            <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
-            </span>
-            <span class="button-text">Learn More</span>
-            </button>
-            </div>
-        </div>
-        
-        
-        
-        <div class="card1">
-            <div class="image1"></div>
-            <div class="content">
-                <a href="#">
-                <span class="title1">
-                Disaster Management Information System
-                </span>
-                </a>
-
-                <p class="desc1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                dolores, possimus pariatur animi temporibus nesciunt praesentium 
-                </p>
-
-                <button class="learn-more" onclick="project()">
-            <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
-            </span>
-            <span class="button-text">Learn More</span>
-            </button>
-            </div>
-        </div>
-        <div class="card1">
-            <div class="image1"></div>
-            <div class="content">
-                <a href="#">
-                <span class="title1">
-                Blockchain-based Voting System
-                </span>
-                </a>
-
-                <p class="desc1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                dolores, possimus pariatur animi temporibus nesciunt praesentium 
-                </p>
-
-                <button class="learn-more" onclick="project()">
-            <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
-            </span>
-            <span class="button-text">Learn More</span>
-            </button>
-            </div>
-        </div>
-        <div class="card1">
-            <div class="image1"></div>
-            <div class="content">
-                <a href="#">
-                <span class="title1">
-                IoT-based Environmental Monitoring System
-                </span>
-                </a>
-
-                <p class="desc1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                dolores, possimus pariatur animi temporibus nesciunt praesentium 
-                </p>
-
-                <button class="learn-more" onclick="project()">
-            <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
-            </span>
-            <span class="button-text">Learn More</span>
-            </button>
-            </div>
-        </div>     
-        
-        
-      </section>
+    </section>
